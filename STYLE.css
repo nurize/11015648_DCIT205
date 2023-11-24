@@ -1,0 +1,395 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f2f2f2;
+}
+
+header{
+    min-height: 10vh;
+    width: 100%;
+    background: none;
+    z-index: 100;
+    padding: 0 20px 0 0;
+    z-index: 1;
+    background-color: #f2f2f2;
+}
+
+.logo{ 
+    width: 10px;
+    height: 10px;
+    top: 0;
+    padding-top: 0;
+    height: 60px;
+}
+
+nav {
+    padding: 2% 6%;
+    font-size: medium;
+    font-weight: 400;
+    overflow: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+.banner{
+    flex: 1;
+    text-align: right;
+}
+
+.banner ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 12px;
+    position:relative;
+}
+
+.navlink::before{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    content:"";
+    transition: 0.3s;
+}
+
+.navlink:hover{
+    color: darkgoldenrod;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #333;
+}
+
+.navlink::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: rgb(0,);
+}
+
+.background_vid{
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.background_vid video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.over-video-text h3{
+    position: relative;
+    display: flex;
+    font-weight: 700;
+    top: 20%; /* Adjust these values to position your text */
+    left: 80%; /* Adjust these values to position your text */
+    transform: translate(-20%, -30%);
+    color: #fff; /* Adjust text color to ensure visibility */
+    font-size: 55px; /* Adjust text size as needed */
+    text-align: right; /* Center align text */
+    z-index: 1; /* Ensure text is above the video */
+
+}
+
+#title{
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: #333;
+}
+
+.courses{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px ;
+    line-height: 22px;
+    color: #333;
+    font-size: 20px;
+    max-width: max-content;
+    width: 1400px;
+    height: 350px;
+    gap: 50px;
+}
+
+.course-box:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 15px #333;
+}
+
+.course-box{
+    flex-basis: 31%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.course-box:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#course{
+    padding-top: 20px;
+}
+
+.read {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+#newsletter{
+    font-size: larger;
+    padding: 0 30px;
+}
+
+footer{
+    background-color: rgba(192, 192, 192, 0.2);
+    color: #f2f2f2;
+    height: 25vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 30px;
+}
+
+.detail{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.input-box{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #A9A9A9;
+    background-color: #A9A9A9;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.input-box button{
+    background: beige;
+    padding: 20px, 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#contact{
+    padding-top: 20px;
+}
+.contact-info{
+    position: relative;
+    padding: 0 0 0 40px;
+    align-items: right;
+    justify-content: right;
+    display: flex;
+    margin-right: 20px;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .banner ul li{
+        display: block;
+        padding: 30px;
+    }
+    .banner{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+}
+
+/*FOR THE ABOUT PAGE*/
+
+.first-img{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.intro{
+    justify-content: center;
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #f2f2f2;
+}
+#topic{
+    font-size: 25px;
+    text-align: center;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+hr{
+    padding-bottom: 40px;
+    padding-left:25%;
+    padding-right: 25%;
+}
+
+.section head{
+    font-size: 25px;
+    padding-left:25%;
+    padding-bottom: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col1{
+    display: flex;
+    box-sizing: border-box
+}
+
+/*I'm trying to round the edges of the pictures*/
+
+/*FOR THE FACULTY PAGE*/
+
+.faculty content{
+    width: 3000px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.team{
+    margin: 0 75px 0 0;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.container3{
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 70%;
+}
+
+#topic{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 36px;
+    box-sizing: border-box;
+    border: #333;
+    font-style: underline;
+}
+
+#topic::after{
+    content: "";
+    background: bisque;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+
+}
+
+.column{
+    margin-top: 15px;
+    width: 100%; 
+}
+
+.column h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.column h6{
+    font-weight: bold;
+}
+
+.responsive-img{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    opacity: 1;
+    padding-bottom: 10px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    gap: 200px;
+    color: #f2f2f2;
+    
+}
+
+.intro h2,p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.text{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+#commpsa{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*FOR THE ACADEMICS PAGE*/
+
