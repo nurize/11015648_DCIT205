@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    color:#f2f2f2;
+    background-color: #f2f2f2;
 }
 
 header{
@@ -288,14 +288,16 @@ footer{
     text-indent: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    color: #f2f2f2;
+    color: #333;
+    padding-top: 2%;
 }
-#topic{
-    font-size: 25px;
+.topic{
+    font-size: 30px;
     text-align: center;
     font-weight:bold;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    color: #333;
 }
 
 p{
@@ -308,11 +310,22 @@ hr{
     padding-right: 25%;
 }
 
+.section{
+    padding-left: 60px;
+    font-size: 28px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.section head{
+    padding-bottom: 20px;
+}
+
 .section head h2{
     font-size: 45px;
-    padding: 20px 0;
     text-align: center;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 .container2{
@@ -326,12 +339,28 @@ hr{
 
 .col1{
     display: flex;
+}
+
+.col1 img{
     box-sizing: border-box;
     border-radius: 15px;
 }
 
+.col2{
+    color: #333;
+}
+
 .abouts-content{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+}
+
+#find{
+    color: #333;
+}
+
+#find a{
+    text-decoration: none;
+    color: black;
 }
 
 .title1{
