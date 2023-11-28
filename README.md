@@ -22,6 +22,24 @@ NAME: Eunice Dickson
 STUDENT ID: 11015648
 
 ### Screenshots of the Webpages
+A little preview of my pages;
+![Image Title](home.png)
+![Image Title](home1.png)
+![Image Title](aboutus.png)
+![Image Title](aboutus1.png)
+![Image Title](academics.png)
+![Image Title](facci.png)
+![Image Title](faqs.png)
+![Image Title](researchgroups.png)
+![Image Title](image.png)
+![Image Title](image.png)
+![Image Title](image.png)
+![Image Title](image.png)
+![Image Title](image.png)
+![Image Title](image.png)
+![Image Title](image.png)
+
+
 
 
 
