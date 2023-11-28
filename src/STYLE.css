@@ -74,38 +74,6 @@ nav {
     background: rgb(0,);
 }
 
-.background_vid{
-    position: relative;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    z-index: 0;
-}
-
-.background_vid video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    height: 70%;
-    object-fit: cover;
-}
-
-.over-video-text h3{
-    position: relative;
-    display: flex;
-    font-weight: 700;
-    top: 20%; /* Adjust these values to position your text */
-    left: 80%; /* Adjust these values to position your text */
-    transform: translate(-20%, -30%);
-    color: #fff; /* Adjust text color to ensure visibility */
-    font-size: 55px; /* Adjust text size as needed */
-    text-align: right; /* Center align text */
-    z-index: 1; /* Ensure text is above the video */
-
-}
-
 .home-body{
     background-color:aliceblue;
 }
@@ -181,6 +149,17 @@ nav {
     transition: 0.5s;
 }
 
+.course-box a{
+    text-decoration: none;
+    text-align: center;
+    color: #213374;
+}
+
+.course-box p a{
+    padding-left: 20px;
+    color: #333;
+} 
+
 .course-box:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -197,6 +176,10 @@ nav {
 #newsletter{
     font-size: larger;
     padding: 0 30px;
+}
+
+.underline a{
+    text-decoration: none;
 }
 
 footer{
@@ -482,12 +465,11 @@ hr{
 
 /*FOR THE ACADEMICS PAGE*/
 .academic-section{
-    padding-left: 30px;
-    padding-right: 30px;
+    display: flex;
 }
 
 .academic-title{
-    font-size: 45px;
+    font-size: 52px;
 }
 
 .options{
@@ -601,6 +583,7 @@ hr{
 }
 
 #advice1{
+
     color: black;
     font-size: 45px;
     text-align: center;
@@ -610,18 +593,19 @@ hr{
 }
 
 .advice{
-    border: 5px #333 solid;
     box-sizing: border-box;
-    margin: 30px;
-    box-shadow: #A9A9A9;
+    margin: 10px;
+    display: flex;
+    box-sizing: border-box;
+
 }
 
 .advice p{
     padding-bottom: 20px;
 }
 
-.career p a{
-    color:bisque;
+.career a{
+    color:#213374;
     text-decoration: none;
 }
 
@@ -834,4 +818,92 @@ hr{
 #none{
     font-size: 25px;
     font-weight:bolder;
+}
+
+.career{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.accordion{
+    margin-left: 15%;
+    margin-right: 15%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: #213374 2px solid;
+    height: 120px;
+    font-size: 25px;
+    display:flow-root;
+    font-weight: bold;
+}
+
+.accordions ul{
+    list-style: none;
+}
+
+.accordions ul li{
+    padding-top: 20px;
+}
+
+.accordions{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.accordions ul li aside summary{
+    color: #333;
+}
+
+.questions{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.questions p{
+    font-size: 40px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-align: center;
+    color: #213374;
+}
+
+.research{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.research1{
+    box-sizing: border-box;
+    background-color: #84828F;
+    color: #fff;
+    text-align: right;
+    padding-top: 30px;
+    border-radius: 20px;
+    height: 200px;
+    font-size: 18px;
+}
+
+.research1 h3{
+    font-size: 30px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+
+.research2{
+    box-sizing: border-box;
+    background-color: #84828F;
+    color: #fff;
+    text-align: left;
+    height: 200px;
+    padding-top: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.research2 h3{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-bottom: 15px;
 }
