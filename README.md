@@ -31,17 +31,9 @@ A little preview of my pages;
 ![Image Title](facci.png)
 ![Image Title](faqs.png)
 ![Image Title](researchgroups.png)
-![Image Title](image.png)
-![Image Title](image.png)
-![Image Title](image.png)
-![Image Title](image.png)
-![Image Title](image.png)
-![Image Title](image.png)
-![Image Title](image.png)
-
-
-
-
+![Image Title](academs.png.png)
+![Image Title](careers.png)
+![Image Title](careers1.png)
 
 ### What I Have Learned From The Project
 

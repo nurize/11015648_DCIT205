@@ -464,100 +464,51 @@ hr{
 }
 
 /*FOR THE ACADEMICS PAGE*/
-.academic-section{
-    display: flex;
-}
-
 .academic-title{
-    font-size: 52px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #213374;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
-
-.options{
-    min-width: 15em;
-    position: relative;
-    margin: 2em;
-}
-
-.options *{
-    box-sizing: border-box;
-}
-
-.dropdown-btn{
-    background-color: #213374;
-    color: black;
-    display: flex;
-    justify-content: center;
+.academic-section{
     align-items: center;
-    border: 2px rgba(192, 192, 192, 0.2) solid;
-    border-radius: 0.5em;
-    padding: 1em;
-    cursor: pointer;
-    transition: 0.3s;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    gap: 150px;
+}
+.dropdown{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 150vh;
+    text-align: center;
+    padding-top: 30px;
 }
 
-/*
-    Clicked styles added later in JavaScript
-*/
-.dropdown-btn-clicked{
-    border: 2px rgba(54,169,189,0.3);
-    box-shadow: 0 0 0.8em rgba(54,169,189,0.3);
+.dropdown h2{
+    padding-bottom: 20px;
 }
 
-.dropdown-btn:hover{
-    background: #A9A9A9;
-}
-
-.caret{
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #fff;
-    transition: 0.3s;
-}
-
-/*Rotate styles added later in JavaScript*/
-.caret-rotate{
-    transform: rotate(180deg);
-}
-
-.menu{
+.options ul{
     list-style: none;
-    padding: 0.2em 0.5em;
-    background: rgba(200,200,200,0.8);
-    border: 1px #333 solid;
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
-    border-radius: 0.5em;
-    color: #333;
-    position: absolute;
-    top: 3em;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    display: none;
-    transition: 0.2s;
-    z-index: 1;
 }
 
-.menu li{
-    padding: 0.7em 0.5em;
-    margin: 0.3em 0;
-    border-radius: 0.5em;
-    cursor: pointer;
-}
-
-.menu li:hover{
-    background: rgba(54,169,189,0.7);
-}
-/*Open styles added later in JavaScript*/
-.menu-open{
-    display: block;
-    opacity: 1;
+.jobs{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .jobs a{
     text-decoration: none;
-    color: #f2f2f2;
+    color: #333;
 }
 
 /*CAREERS PAGE*/
@@ -594,14 +545,15 @@ hr{
 
 .advice{
     box-sizing: border-box;
-    margin: 10px;
-    display: flex;
+    margin: 10%;
     box-sizing: border-box;
-
+    border: 2px  #213374 solid;
+    background-color: #fff;
 }
 
 .advice p{
     padding-bottom: 20px;
+    text-align: justify;
 }
 
 .career a{
@@ -823,6 +775,7 @@ hr{
 .career{
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
 }
 
 .accordion{
@@ -906,4 +859,32 @@ hr{
     font-size: 30px;
     padding-left: 70px;
     padding-bottom: 15px;
+}
+
+.career3{
+    position: relative;
+}
+
+.career1{
+    position: absolute;
+    top: 35%;
+    width: 300px;
+}
+
+.career3 img{
+    width: 25em;
+    height: 70vh;
+}
+
+.career1 h3{
+    text-align: center;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.career2 p{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
 }
