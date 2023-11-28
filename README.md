@@ -22,6 +22,7 @@ NAME: Eunice Dickson
 STUDENT ID: 11015648
 
 ### Screenshots of the Webpages
+
 A little preview of my pages;
 ![Image Title](home.png)
 ![Image Title](home1.png)
@@ -34,6 +35,8 @@ A little preview of my pages;
 ![Image Title](academs.png.png)
 ![Image Title](careers.png)
 ![Image Title](careers1.png)
+![Image Title](faculties.png)
+![Image Title](faculties1.png)
 
 ### What I Have Learned From The Project
 
